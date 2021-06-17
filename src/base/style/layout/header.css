@@ -1,0 +1,45 @@
+#header {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 200px;
+    right: 0;
+    height: 48px;
+    border-bottom: 1px solid #808080;
+}
+
+    #header #header-nav {
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+    }
+
+    #header #header-label {
+        position: absolute;
+        right: 24px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+#header-dropdown {
+    margin-left: 10px;
+    transform: rotate(90deg);
+    background-image: url('../../../assets/icon/btn-next-page.svg');
+    cursor: pointer;
+}
+
+#picture {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../../assets/icon/avatar-default.png');
+}
+
+#header-label #customer-name {
+    margin-left: 16px;
+}
+
+#options {
+    margin-left: 16px;
+    background-image: url('../../../assets/icon/option.png');
+}

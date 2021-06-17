@@ -1,0 +1,26 @@
+select {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #808080;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+    select:hover {
+        border-color: #019160;
+    }
+
+#department {
+    position: absolute;
+    left: 340px;
+    width: 170px;
+}
+
+#position {
+    position: absolute;
+    left: 515px;
+    width: 170px;
+}

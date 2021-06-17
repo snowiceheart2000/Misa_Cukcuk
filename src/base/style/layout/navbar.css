@@ -1,0 +1,75 @@
+#navbar {
+    height: 100vh;
+    width: 200px;
+    border-right: 1px solid #808080;
+}
+
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 100%;
+}
+
+#sidebar {
+    background-image: url('../../../assets/img/toggle.png');
+    width: 24px;
+    height: 24px;
+}
+
+#logo {
+    background-image: url('../../../assets/cukcuk-logo.png');
+    margin-left: 10px;
+    width: 90px;
+    height: 24px;
+}
+
+.navbar-content {
+    display: flex;
+    flex-direction: column;
+}
+
+    .navbar-content .navbar-item {
+        display: flex;
+        align-items: center;
+        height: 44px;
+        font-size: 13px;
+        padding: 0 10px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .navbar-content .navbar-item:hover{
+        background-color: #dedede;
+        cursor: pointer;
+    }
+
+#tongquan {
+    background-image: url('../../../assets/icon/dashboard.png');
+}
+
+#baocao {
+    background-image: url('../../../assets/icon/report.png');
+}
+
+#muahang {
+    background-image: url('../../../assets/icon/dashboard.png');
+}
+
+#khachhang {
+    background-image: url('../../../assets/icon/dic-employee.png');
+}
+
+#nhanvien {
+    background-image: url('../../../assets/icon/dic-employee.png');
+}
+
+#thietlap {
+    background-image: url('../../../assets/icon/setting.png');
+}
+
+.navbar-item .navbar-text {
+    margin-left: 10px;
+}
